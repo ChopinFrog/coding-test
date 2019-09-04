@@ -11,6 +11,8 @@ import java.util.Queue;
  */
 public class Scoville {
 
+    //..
+
     public int solution(int[] scoville, int K) {
         int answer = 0;
 
