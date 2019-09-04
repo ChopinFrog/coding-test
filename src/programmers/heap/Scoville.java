@@ -11,7 +11,8 @@ import java.util.Queue;
  */
 public class Scoville {
 
-    //..
+    // stash 1
+    // k8sDev
 
     public int solution(int[] scoville, int K) {
         int answer = 0;
