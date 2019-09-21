@@ -40,9 +40,5 @@ public class Lambda {
 
         // parallel은 순서가 보장되지 않는다.
         names.parallelStream().map( item -> item.concat("s")).forEach(System.out::println);
-
-
     }
-
-
 }
