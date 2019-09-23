@@ -24,7 +24,6 @@ public class RecursiveFunction {
         return fibonacci(n-1) + fibonacci(n-2);
     }
 
-
     /**
      * Fibonacci arrays without Cache
      * f(n) = f(n-1) + f(n-2)
@@ -42,5 +41,4 @@ public class RecursiveFunction {
         IntStream.range(2, n).forEach(x -> cache[x] = cache[x-1] + cache[x-2]);
         return cache[n-1] + cache[n-2];
     }
-    
 }
